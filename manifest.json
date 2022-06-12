@@ -9,6 +9,5 @@
       "js": ["background.js"]
     }
   ],
-  "permissions": ["storage"],
   "manifest_version": 3
 }
