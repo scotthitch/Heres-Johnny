@@ -1,0 +1,14 @@
+{
+  "name": "Here's Johnny",
+  "version": "1.1.0",
+  "description": "Will quickly replace a random image on your page with an image of Johnny.",
+  "icons": {"128": "images/johnny.png"},
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["background.js"]
+    }
+  ],
+  "permissions": ["storage"],
+  "manifest_version": 3
+}
