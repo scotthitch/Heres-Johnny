@@ -1,6 +1,6 @@
 {
   "name": "Here's Johnny",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Will quickly replace a random image on your page with an image of Johnny.",
   "icons": {"128": "images/johnny128.png"},
   "content_scripts": [
